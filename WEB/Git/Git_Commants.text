@@ -4,3 +4,22 @@ git youtube videos from *Sheryians Coding School*
 
 
  git init // Ininitialise Git
+=================================
+ echo "# Adil_Work_Shop" >> README.md
+git init
+git add README.md // git add . for all the files
+git commit -m "first commit"  // for comment code
+git branch -M main
+git remote add origin https://github.com/mdadil298/Adil_Work_Shop.git
+git push -u origin main
+
+=========================================
+git config --global user.email "bob@example.com"
+git config user.email "bob@example.com"
+git commit --author "Bob <bob@example.com>"
+
+git config user.email mahmoud@company.ccc
+git config user.name 'Mahmoud Zalt'
+
+git config --get user.email
+git config --get user.name
